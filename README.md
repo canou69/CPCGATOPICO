@@ -12,8 +12,7 @@ Expérimentation autour des composants 40007 40008 et 40010 de l'Amstrad CP
 Ambitions :
 ---------------------------------------------------------------------------------------
 Affichage double : 2 modes 
-  CPC et Sortie VGA Clone
-  CPC et Sortie VGA "Shell de commande carte"
+  (1.CPC et Sortie VGA Clone du CPC/ 2.CPC et Sortie VGA "Menu carte")
 
 ---------------------------------------------------------------------------------------
 Séquence de déblocage ASIC pour envoyer des commandes du CPC au 2350B
