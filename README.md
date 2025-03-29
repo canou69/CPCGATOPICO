@@ -1,7 +1,7 @@
 # CPCGATOPICO
 
 Ce projet est en construction et partagé à mon niveau d'avancement sur le projet.
-Donc sans garanti de résultat pour le moment
+A ce stade tout est à documenter et succeptible d'évoluer.
 
 Expérimentation autour des composants 40007 40008 et 40010 de l'Amstrad CP
 
