@@ -12,6 +12,10 @@ RAF :
   ...
 
 La carte :
+PCB avec sortie DSUB
+Connection pour une carte RP2350B
+
+https://github.com/WeActStudio/WeActStudio.RP2350ACoreBoard?spm=a2g0o.detail.1000023.1.72a94gSy4gSy5d&file=WeActStudio.RP2350ACoreBoard
 
 Toutes les connections du GA sont interfacées avec les GPIO du Weaxie RP2350B
 Sauf : R G B et CK16
