@@ -11,17 +11,15 @@ RAF :
   Toute la partie software
   ...
 
-La carte :
-PCB avec sortie DSUB
-Connection pour une carte RP2350B
 
-https://github.com/WeActStudio/WeActStudio.RP2350ACoreBoard?spm=a2g0o.detail.1000023.1.72a94gSy4gSy5d&file=WeActStudio.RP2350ACoreBoard
+PCB :
+  Pins pour une carte Weaxie RP2350B dispo ALI
+  
+  https://github.com/WeActStudio/WeActStudio.RP2350ACoreBoard?spm=a2g0o.detail.1000023.1.72a94gSy4gSy5d&file=WeActStudio.RP2350ACoreBoard
+      
+  Pins GA : Toutes les pins du GA sont converties 3.3v puis interfacées avec les GPIO du Weaxie RP2350B
+  Sauf : R G B et CK16
 
-Toutes les connections du GA sont interfacées avec les GPIO du Weaxie RP2350B
-Sauf : R G B et CK16
-dont
-15 GPIO sont utilisés pour générer un signal VGA 555 32768 couleurs
-2 GPIO pour HSYNC et VSYNC VGA
-8 GPIO pour D0-D7
-etc
+
+
 
