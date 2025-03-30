@@ -1,4 +1,4 @@
-# CPCGATOPICO
+# CPC GA TO PICO
 
 Ce projet est en construction et partagé à mon niveau d'avancement sur le projet.  
 A ce stade tout est à documenter et succeptible d'évoluer.  
