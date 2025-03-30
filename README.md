@@ -11,11 +11,14 @@ Ambitions :
 ##Affichage double : 2 modes  
 ###CPC et Sortie VGA Clone du CPC  
 ###CPC et Sortie VGA "Menu carte"  
-##VGA 5:5:5 (32 niveaux par couleur, 32768 couleurs totales  
-
+###VGA 5:5:5 (32 niveaux par couleur, 32768 couleurs totales  
+##OTG USB, Carte mémoire USB, Clavier..  
+##SHELL de monitoring, configuration  
+##VERSION CPC (Alimentation CPC, réduction Pcb, orientation sortie etc..)  
+  
 Divers:  
 Remplacement d'un GA (Emulation)  
-
+  
 [RP2350B]  
   GPIO0 à GPIO7 ----> D0 à D7 40010  
   GPIO8 ----> CCLK 40010  
