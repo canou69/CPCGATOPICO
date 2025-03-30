@@ -49,4 +49,5 @@ Remplacement d'un GA (Emulation)
   GPIO37 à GPIO41 ----> 5 Bits R-2R couleur vert G VGA D-SUB  
   GPIO42 à GPIO46 ----> 5 Bits R-2R couleur Rouge R VGA D-SUB  
   GPIO47 ----> HSYNC VGA D-SUB  
-  
+    
+  *Note : SYNC était inutile, il aurait été plus judicieux de prendre CK16  
