@@ -4,8 +4,10 @@ Ce projet est en construction et partagé à mon niveau d'avancement sur le proj
 A ce stade tout est à documenter et succeptible d'évoluer.  
 Expérimentation autour des composants 40007 40008 et 40010 de l'Amstrad CPC  
 
-#Création d"un PCB venant se placer entre le support de la puce GA et cette dernière *  
-
+#Création d"un PCB venant se placer entre le support de la puce GA et cette dernière *
+-----------------------------------------------------------------------------------------------------------------------------------
+Je déconseille vivement de faire une carte à partir des fichiers partagés ici le montage à mis en évidence des problèmes à corriger
+-----------------------------------------------------------------------------------------------------------------------------------
 Ambitions :  
 
 ##Affichage double : 2 modes  
