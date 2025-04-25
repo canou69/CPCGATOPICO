@@ -9,7 +9,8 @@ Expérimentation autour des composants 40007 40008 et 40010 de l'Amstrad CPC
 Je déconseille vivement de faire une carte à partir des fichiers partagés ici le montage à mis en évidence des problèmes à corriger
 -----------------------------------------------------------------------------------------------------------------------------------
 Ambitions :  
-
+Revues le 25/04/2025  
+##Sonde logique  
 ##Affichage double : 2 modes  
 ###CPC et Sortie VGA Clone du CPC  
 ###CPC et Sortie VGA "Menu carte"  
