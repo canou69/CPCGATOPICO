@@ -1,27 +1,22 @@
 # CPC GA TO PICO
 
 Ce projet est en construction et partagé à mon niveau d'avancement sur le projet.  
-A ce stade tout est à documenter et succeptible d'évoluer.  
+A ce stade tout est à documenter et susceptible d'évoluer.  
 Expérimentation autour des composants 40007 40008 et 40010 de l'Amstrad CPC  
 
-#Création d"un PCB venant se placer entre le support de la puce GA et cette dernière *
------------------------------------------------------------------------------------------------------------------------------------
-Je déconseille vivement de faire une carte à partir des fichiers partagés ici le montage à mis en évidence des problèmes à corriger
------------------------------------------------------------------------------------------------------------------------------------
-Ambitions :  
-Revues le 25/04/2025  
-##Sonde logique  
-##Affichage double : 2 modes  
-###CPC et Sortie VGA Clone du CPC  
-###CPC et Sortie VGA "Menu carte"  
-###VGA 5:5:5 (32 niveaux par couleur, 32768 couleurs totales  
-##OTG USB, Carte mémoire USB, Clavier..  
-##SHELL de monitoring, configuration  
-##VERSION CPC (Alimentation CPC, réduction Pcb, orientation sortie etc..)  
+## Création d'un PCB venant se placer entre le support de la puce GA et cette dernière *
+
+## Je déconseille vivement de faire une carte à partir des fichiers partagés ici : le montage a mis en évidence des problèmes à corriger
+
+Ambitions (au 27/02/2026):  
+
+## Sortie VGA : Mode 0 Terminal (shell de Monitoring et gestion de la configuration de la carte)
+
+## Sortie VGA : Mode 1 Clone de la sortie video du CPC
+
+## OTG USB, Carte mémoire USB, Clavier
   
-Divers:  
-Remplacement d'un GA (Emulation)  
-  
+Le PCB est connecté en "Pigtail" sur le circuit 40010 Gate array du CPC 464
 [RP2350B]  
   GPIO0 à GPIO7 ----> D0 à D7 40010  
   GPIO8 ----> CCLK 40010  
@@ -52,5 +47,5 @@ Remplacement d'un GA (Emulation)
   GPIO37 à GPIO41 ----> 5 Bits R-2R couleur vert G VGA D-SUB  
   GPIO42 à GPIO46 ----> 5 Bits R-2R couleur Rouge R VGA D-SUB  
   GPIO47 ----> HSYNC VGA D-SUB  
-    
+
   *Note : SYNC était inutile, il aurait été plus judicieux de prendre CK16  
