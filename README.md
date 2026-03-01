@@ -18,7 +18,7 @@ Je déconseille vivement de faire une carte à partir des fichiers partagés ici
 
 ## Le PCB
 
-Le PCB est connecté en "Pigtail" sur le circuit 40010 Gate array du CPC 464
+Le PCB est connecté en "Piggyback" sur le circuit 40010 Gate array du CPC 464
 
 [RP2350B] weact
 
