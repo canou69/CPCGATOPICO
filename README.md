@@ -53,6 +53,50 @@ Le PCB est connecté en "Piggyback" sur le circuit 40010 Gate array du CPC 464
   GPIO47 ----> HSYNC VGA D-SUB  
 
   *Note : SYNC était inutile, il aurait été plus judicieux de prendre CK16  
+## Correctif pcb à réaliser:
+pour être vraiment compatible avec pico_scanvideo_dpi, le meilleur mapping est :
+
+Pins contigus HSYNC/VSYNC contigus
+Tous les GPIO ≤ 31 (important avec l’implémentation actuelle)
+Mapping recommandé (en gardant UART debug sur GP0/GP1)
+
+COLOR_PIN_BASE = 2
+
+COLOR_PIN_COUNT = 16
+
+SYNC_PIN_BASE = 18
+
+HSYNC = GP18
+
+VSYNC = GP19
+
+Répartition RGB (5:5:5) dans la plage GP2..GP17 :
+
+Rouge R0..R4 : GP2..GP6
+
+bit alpha (non utilisé) : GP7
+
+Vert G0..G4 : GP8..GP12
+
+Bleu B0..B4 : GP13..GP17
+
+À câbler vers VGA
+
+R0..R4, G0..G4, B0..B4 via votre réseau R-2R
+
+HSYNC sur GP18
+
+VSYNC sur GP19
+
+masse commune VGA
+
+Defines CMake à utiliser
+
+PICO_SCANVIDEO_COLOR_PIN_BASE=2
+
+PICO_SCANVIDEO_COLOR_PIN_COUNT=16
+
+PICO_SCANVIDEO_SYNC_PIN_BASE=18
 
 ## Liste complète des composants
 
